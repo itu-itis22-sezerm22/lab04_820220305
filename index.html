@@ -5,72 +5,86 @@
 	<link rel="stylesheet" href="rules.css">
 </head>
 <body>
-	<a href="#PI">Personal Information</a>-
-    <a href="#Edu">Education</a>-
-    <a href="#Skills">Skills</a>-
-    <a href="#Lang">Languages</a>-
-    <a href="#Hob">Hobbies</a>
-	<h1> Muhammet Esad Sezer </h1>
-	<h3>Student</h3>
-	<br>
-	<img src="me.jpg">
-	<h2 id="PI">Personal Information</h2>
-		<p>
-			<b>Address:</b> Istanbul Technical University, Ayazağa/İstanbul.
-			<br>
-			<b>Contact Number:</b> +905437837520
-			<br>
-			<b>E-Mail:</b> sezerm22@itu.edu.tr
-			<br>
-			<b>GitHub</b> <a href=https://github.com/itu-itis22-sezerm22 >https://github.com/itu-itis22-sezerm22</a>
-		</p>
-	<h2 id="Edu"> Education </h2>
-	<table>
-		<tr>
-			<th> School </th>
-			<th> Department </th>
-			<th> Year </th>
-		</tr>
-		<tr>
-			<td> Istanbul Technical University </td>
-			<td> Computer Engineering </td>
-			<td> 2022-present </td>
-		</tr>
-	</table>
-	<div>
-		<h3> Courses that I am taking </h3>
-		<ol>
-			<li> BLG 101E - Introduction to Information Systems </li>
-			<li> BLG 113E - Introduction to Computer Engineering and Ethics </li>
-			<li> FIZ 101E - Physics I </li>
-			<li> FIZ 101EL - Physics I Lab </li>
-			<li> KIM 101E - Chemistry I </li>
-			<li> KIM 101EL - Chemistry I Lab </li>
-			<li> MAT 103E - Mathematics I </li>
-			<li> MAT281E - Linear Algebra and Applications </li>
-			<li> TUR 121 - Turkish I </li>
-		</ol>
-	</div>
-	<br>
-	<h2 id="Skills">Skills</h2>
-		<ul>
-			<li>Photo/Video Editing</li>
-			<li>Drawing</li>
-			<li>Writing</li>
-		</ul>
-	<h2 id="Lang">Languages</h2>
-		<ul>
-			<li>Turkish</li>
-			<li>English</li>
-			<li>Arabic(a little)</li>
-			<li>French(soon)</li>
-		</ul>
-	<h2 id="Hob">Hobbies</h2>
-		<ul>
-			<li>Collecting stuff</li>
-			<li>Going for a walk</li>
-			<li>Listening to music</li>
-		</ul>
-	
+    <div class="container">
+
+        <a href="#PI" class="button">Personal Information</a>-
+        <a href="#Edu" class="button">Education</a>-
+        <a href="#Skills" class="button">Skills</a>-
+        <a href="#Lang" class="button">Languages</a>-
+        <a href="#Hob" class="button">Hobbies</a>
+
+        <h1> Muhammet Esad Sezer </h1>
+        <h3>Student</h3>
+        <br>
+        <img id="itu-logo" src="itu-logo.png" />
+        <img src="me.jpg"/>
+        <h2 id="PI">Personal Information</h2>
+        <div class="sub-container">
+            <p>
+                <b>Address:</b> Istanbul Technical University, Ayazağa/İstanbul.
+                <br>
+                <b>Contact Number:</b> +905437837520
+                <br>
+                <b>E-Mail:</b> sezerm22@itu.edu.tr
+                <br>
+                <b>GitHub</b> <a id="github-link" href=https://github.com/itu-itis22-sezerm22>https://github.com/itu-itis22-sezerm22</a>
+            </p>
+        </div>
+        <h2 id="Edu"> Education </h2>
+        <div class="sub-container">
+            <table>
+                <tr>
+                    <th> School </th>
+                    <th> Department </th>
+                    <th> Year </th>
+                </tr>
+                <tr>
+                    <td> Istanbul Technical University </td>
+                    <td> Computer Engineering </td>
+                    <td> 2022-present </td>
+                </tr>
+            </table>
+            <div>
+                <h3> Courses that I am taking </h3>
+                <ol>
+                    <li> BLG 101E - Introduction to Information Systems </li>
+                    <li> BLG 113E - Introduction to Computer Engineering and Ethics </li>
+                    <li> FIZ 101E - Physics I </li>
+                    <li> FIZ 101EL - Physics I Lab </li>
+                    <li> KIM 101E - Chemistry I </li>
+                    <li> KIM 101EL - Chemistry I Lab </li>
+                    <li> MAT 103E - Mathematics I </li>
+                    <li> MAT281E - Linear Algebra and Applications </li>
+                    <li> TUR 121 - Turkish I </li>
+                </ol>
+            </div>
+        </div>
+        <br>
+        <h2 id="Skills">Skills</h2>
+        <div class="sub-container">
+            <ul>
+                <li>Photo/Video Editing</li>
+                <li>Drawing</li>
+                <li>Writing</li>
+            </ul>
+        </div>
+        <h2 id="Lang">Languages</h2>
+        <div class="sub-container">
+            <ul>
+                <li>Turkish</li>
+                <li>English</li>
+                <li>Arabic(a little)</li>
+                <li>French(soon)</li>
+            </ul>
+        </div>
+        <h2 id="Hob">Hobbies</h2>
+        <div class="sub-container">
+            <ul>
+                <li>Collecting stuff</li>
+                <li>Going for a walk</li>
+                <li>Listening to music</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
